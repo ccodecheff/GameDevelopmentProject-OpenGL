@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Final" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option extended_obj_names="1" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Final" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/rich/Desktop/CSCI 191t GD/common/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Final" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/rich/Desktop/CSCI 191t GD/common/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../common/include" />
+		</Compiler>
+		<Linker>
+			<Add library="../common/lib/libSOIL.a" />
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add library="../common/lib/libirrKlang.a" />
+			<Add directory="../common/lib" />
+		</Linker>
+		<Unit filename="include/_enemyA.h" />
+		<Unit filename="include/_enemyB.h" />
+		<Unit filename="include/_gClock.h" />
+		<Unit filename="include/_gClockNum.h" />
+		<Unit filename="include/_glLight.h" />
+		<Unit filename="include/_glScene.h" />
+		<Unit filename="include/_inputs.h" />
+		<Unit filename="include/_levels.h" />
+		<Unit filename="include/_model.h" />
+		<Unit filename="include/_pages.h" />
+		<Unit filename="include/_parallax.h" />
+		<Unit filename="include/_player.h" />
+		<Unit filename="include/_sound.h" />
+		<Unit filename="include/_target.h" />
+		<Unit filename="include/_textureLoader.h" />
+		<Unit filename="include/_timer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/_enemyA.cpp" />
+		<Unit filename="src/_enemyB.cpp" />
+		<Unit filename="src/_gClock.cpp" />
+		<Unit filename="src/_gClockNum.cpp" />
+		<Unit filename="src/_glLight.cpp" />
+		<Unit filename="src/_glScene.cpp" />
+		<Unit filename="src/_inputs.cpp" />
+		<Unit filename="src/_levels.cpp" />
+		<Unit filename="src/_model.cpp" />
+		<Unit filename="src/_pages.cpp" />
+		<Unit filename="src/_parallax.cpp" />
+		<Unit filename="src/_player.cpp" />
+		<Unit filename="src/_sound.cpp" />
+		<Unit filename="src/_target.cpp" />
+		<Unit filename="src/_textureLoader.cpp" />
+		<Unit filename="src/_timer.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
